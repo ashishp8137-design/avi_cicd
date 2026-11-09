@@ -1,0 +1,11 @@
+name: avi-cicd
+on: 
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  self-intro:
+    runs-on: ubuntu-latest
+    steps:
+      - name: My Name
+        run: echo " My Name is Avi Patel"
